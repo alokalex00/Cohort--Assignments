@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FlexFit Brand Design</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="grid-wrapper">
+
+    <!-- Card 1: Hero Photo Card -->
+    <div class="card card-photo">
+      <div class="photo-overlay"></div>
+      <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" alt="Fitness model" class="photo-img"/>
+      <div class="compass-icon">
+        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="19" stroke="white" stroke-width="2"/>
+          <polygon points="20,6 24,20 20,34 16,20" fill="white" opacity="0.9"/>
+          <circle cx="20" cy="20" r="3" fill="#1a1a1a"/>
+        </svg>
+      </div>
+      <div class="stats-bar">
+        <div class="stat-pill">
+          <span class="stat-icon fire">🔥</span>
+          <div><div class="stat-num">35</div><div class="stat-label">MIN</div></div>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-icon pulse">📈</span>
+          <div><div class="stat-num">NO</div><div class="stat-label">EXCUSES</div></div>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-icon runner">🏃</span>
+          <div><div class="stat-num">7</div><div class="stat-label">DAYS</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: App Promo (Yellow) -->
+    <div class="card card-yellow card-app">
+      <div class="sound-waves">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="f-watermark">F</div>
+      <p class="app-cta">USE OUR APP FOR<br/>COMPILING A QUALITY<br/>WORKOUT!</p>
+      <div class="store-btns">
+        <a href="#" class="store-btn">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path d="M3 2l14 8-14 8V2z"/></svg>
+          <div><div class="store-label">GET IT ON</div><div class="store-name">Google Play</div></div>
+        </a>
+        <a href="#" class="store-btn">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path d="M14.5 10.5c0-2.2 1.8-3.2 1.9-3.3-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.8-2.9-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.7 1.1 1.6 2.3 2.7 2.2 1.1 0 1.5-.7 2.8-.7 1.3 0 1.7.7 2.8.7 1.2 0 1.9-1.1 2.7-2.1.8-1.2 1.1-2.4 1.1-2.5-.1 0-2.9-1.1-2.9-4.7z"/></svg>
+          <div><div class="store-label">Download on the</div><div class="store-name">App Store</div></div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Card 3: Typography Card -->
+    <div class="card card-white card-typography">
+      <div class="typo-label">HEADINGS FONT</div>
+      <div class="typo-heading">SUISSE BP INT'L</div>
+      <div class="typo-label" style="margin-top:1.2rem">BODY</div>
+      <div class="typo-body">SUISSE INT'L</div>
+      <div class="color-swatches">
+        <div class="swatch swatch-skin"></div>
+        <div class="swatch swatch-yellow"></div>
+        <div class="swatch swatch-dark"></div>
+      </div>
+    </div>
+
+    <!-- Card 4: Tagline Card (Dark) -->
+    <div class="card card-dark card-tagline">
+      <div class="tag-top">
+        <div class="tag-dots"><span class="dot yellow"></span><span class="dot black"></span></div>
+        <span class="tag-sub">TIME FOR FITNESS — 23</span>
+      </div>
+      <h1 class="big-tagline">OWN YOUR<br/>STRENGTH,<br/>OWN YOU</h1>
+      <div class="address-pill">
+        <svg viewBox="0 0 24 24" fill="#1a1a1a" width="16" height="16"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <span>12834 FITNESS LN<br/>BROOKLYN, NY</span>
+      </div>
+      <div class="website-link">FLEXFIT.COM</div>
+    </div>
+
+    <!-- Card 5: Limit Text Card (White) -->
+    <div class="card card-white card-limits">
+      <h2 class="limits-heading">REDEFINE YOUR<br/>LIMITS, ACHIEVE YOUR<br/>FITNESS GOALS</h2>
+      <div class="brand-badge">
+        <div class="badge-icon">
+          <svg viewBox="0 0 24 24" fill="white" width="18" height="18"><path d="M13.5 2L2 13.5l3.5 3.5L17 5.5 13.5 2zM5 17l-3 3 3-3zm4.5-10L7 9.5l7.5 7.5L17 14.5 9.5 7z"/></svg>
+        </div>
+        <span>LUXURY FITNESS<br/>EXPERIENCE</span>
+      </div>
+    </div>
+
+    <!-- Card 6: Logo Center Card (Cream) -->
+    <div class="card card-cream card-logo">
+      <div class="logo-wrap">
+        <svg class="logo-icon" viewBox="0 0 50 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 4 L42 4 L42 14 L18 14 L18 24 L36 24 L36 34 L18 34 L18 56 L8 56 Z" fill="#1a1a1a"/>
+          <path d="M30 24 L42 24 L30 56 Z" fill="#1a1a1a" opacity="0.5"/>
+        </svg>
+        <span class="logo-text">FlexFit</span>
+      </div>
+    </div>
+
+    <!-- Card 7: Notification / Phone Card -->
+    <div class="card card-phone-wrap">
+      <div class="notif-bar">
+        <div class="notif-left">
+          <div class="notif-icon">F</div>
+          <span class="notif-brand">FlexFit</span>
+        </div>
+        <span class="notif-time">2h</span>
+      </div>
+      <div class="phone-photo">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=300&q=80" alt="Athlete" class="phone-img"/>
+        <div class="phone-overlay">
+          <div class="unlock-cta">
+            <div>
+              <div class="unlock-text">UNLOCK YOUR</div>
+              <div class="unlock-text">POTENTIAL</div>
+            </div>
+            <div class="refresh-icon">↻</div>
+          </div>
+          <button class="signup-btn">SIGN UP</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 8: Visit Site (Yellow+Photo) -->
+    <div class="card card-visit">
+      <div class="visit-photo-bg">
+        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=300&q=80" alt="Fitness" class="visit-photo"/>
+        <div class="visit-dark-overlay"></div>
+      </div>
+      <div class="visit-cta">
+        <span class="visit-arrow">↗</span>
+        <span class="visit-text">Visit site</span>
+      </div>
+    </div>
+
+    <!-- Card 9: Trainers Card (White) -->
+    <div class="card card-white card-trainers">
+      <h2 class="trainers-heading">TRAIN WITH THE<br/>BEST PERSONAL<br/>TRAINERS</h2>
+      <div class="trainers-count">48+</div>
+      <div class="trainers-footer">
+        <div class="trainer-avatars">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&q=80" alt="Trainer" class="avatar"/>
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=60&q=80" alt="Trainer" class="avatar"/>
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=60&q=80" alt="Trainer" class="avatar"/>
+        </div>
+        <span class="trainers-label">EXPERT TRAINERS</span>
+      </div>
+    </div>
+
+    <!-- Card 10: Athlete Photo (Yellow BG) -->
+    <div class="card card-athlete">
+      <div class="athlete-bg"></div>
+      <img src="https://images.unsplash.com/photo-1549476464-37392f717541?w=400&q=80" alt="Athlete" class="athlete-img"/>
+    </div>
+
+  </div>
+</body>
+</html>
